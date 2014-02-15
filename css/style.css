@@ -1,0 +1,123 @@
+body {
+  padding-top: 20px;
+  background-color: #dee1ee;
+}
+
+.container>.navbar-header, .container-fluid>.navbar-header, .container>.navbar-collapse, .container-fluid>.navbar-collapse {
+margin-right: auto;
+margin-left: auto;
+}
+
+.navbar-default .navbar-brand {
+	color: #fff;
+}
+
+.navbar-header {
+	width: 200px;
+	clear: both;
+	float: none;
+}
+
+.navbar-brand {
+	font-size: 28px;
+}
+
+.navbar-default {
+	border: 0px;
+	background-color: #2980b9;
+	margin-bottom: 80px;
+}
+
+.content-list{
+	overflow: hidden;
+	max-width: 375px;
+	margin: 0 auto;
+	margin-bottom: 50px;
+} 
+
+.list-collapse {
+	height: 50px;
+}
+
+.content-header {
+	background-color: #fdf;
+	margin-left: 0;
+	margin-right: 0;
+	border-radius: .5em;
+	color: #fff;
+	line-height: 50px;
+	cursor: pointer;
+}
+
+.content-header-icon {
+}
+
+.genericon:before {
+	font-size: 42px;
+}
+
+.genericon {
+	line-height: inherit;
+}
+
+.content-header-title {
+	font-size: 28px;
+}
+
+.content-header-drop {
+}
+
+.content-item-title {
+	font-size: 21px;
+	line-height: 50px;
+}
+
+.title-row {
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+.content-item:hover{
+	background-color: #eee;
+	cursor: pointer;
+}
+
+.content-item-des {
+	margin-top: -10px;
+}
+
+#social-title {
+	background-color: #2980b9; 
+}
+
+#social-title:hover {
+	background-color: #006096; 
+}
+
+#projects-title {
+	background-color: #c1272c;
+}
+
+#projects-title:hover{
+	background-color: #990000;
+}
+
+#snippets-title {
+	background-color: #c1272c;
+}
+
+#snippets-title:hover{
+	background-color: #990000;
+}
+
+#photo-title {
+	background-color: #2980b9; 
+}
+
+#photo-title:hover {
+	background-color: #006096; 
+}
+
+.genericon-facebook, .genericon-github, .genericon-mail{
+	padding-right: 50px;
+}
