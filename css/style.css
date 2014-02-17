@@ -1,6 +1,6 @@
 body {
   padding-top: 20px;
-  background-color: #dee1ee;
+  background-color: #ddd
 }
 
 a {
@@ -18,23 +18,28 @@ margin-left: auto;
 }
 
 .navbar-default .navbar-brand {
-	color: #fff;
+	color: #333;
+
 }
 
 .navbar-header {
 	width: 200px;
 	clear: both;
 	float: none;
+
 }
 
 .navbar-brand {
 	font-size: 28px;
+	line-height: 30px;
 }
 
 .navbar-default {
 	border: 0px;
-	background-color: #2980b9;
+	background-color: transparent;
 	margin-bottom: 80px;
+	border-radius: 0px;
+	border-bottom: 1px solid #333;
 }
 
 .content-list{
@@ -45,41 +50,52 @@ margin-left: auto;
 } 
 
 .list-collapse {
-	height: 50px;
+	height: 41px;
 }
 
 .content-header {
-	background-color: #fdf;
+	/*background-color: #fdf;*/
+	border-bottom: 1px solid #333;
 	margin-left: 0;
 	margin-right: 0;
-	border-radius: .5em;
-	color: #fff;
-	line-height: 50px;
+	color: #333;
+	line-height: 40px;
 	cursor: pointer;
-	margin-bottom: 10px;
+	margin-bottom: 6px;
+
+}
+
+.content-header:hover{
+	background-color: #eee;
 }
 
 .content-header-icon {
 }
 
 .genericon:before {
-	font-size: 42px;
+	font-size: 32px;
 }
 
 .genericon {
 	line-height: inherit;
+	height: 32px;
+	width: 32px;
 }
 
 .content-header-title {
-	font-size: 28px;
+	font-size: 24px;
+	margin-left: -15px;
+
 }
 
 .content-header-drop {
+	margin-left: -5px;
+	padding-left: 0px;
 }
 
 .content-item-title {
 	font-size: 21px;
-	line-height: 50px;
+	line-height: 40px;
 }
 
 .title-row {
@@ -96,7 +112,9 @@ margin-left: auto;
 	margin-top: -10px;
 }
 
-#social-title {
+
+
+/*#social-title {
 	background-color: #2980b9; 
 }
 
@@ -126,7 +144,7 @@ margin-left: auto;
 
 #photo-title:hover {
 	background-color: #006096; 
-}
+}*/
 
 .genericon-facebook, .genericon-github, .genericon-mail{
 	padding-right: 50px;
