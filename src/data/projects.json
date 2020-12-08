@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Rock, Paper, Scissors",
+    "techStack": ["JavaScript"],
+    "links": {
+      "code": "https://github.com/jesse-moore/odinProject/tree/master/rps",
+      "live": "https://jesse-moore.github.io/odinProject/rps"
+    },
+    "description": "A rock, paper, scissors game written in Javascript. The game is played against the computer and the winner is determined by the highest score out of 5 rounds.",
+    "image": "rps.png"
+  },
+  {
+    "name": "Etch-A-Sketch",
+    "techStack": ["JavaScript"],
+    "links": {
+      "code": "https://github.com/jesse-moore/odinProject/tree/master/etchASketch",
+      "live": "https://jesse-moore.github.io/odinProject/etchASketch"
+    },
+    "description": "A drawing game written in Javascript and modeled after the etch-a-sketch game. Mousing over the playing area, the pixels will progressively increase in darkness. Upon clearing the playing area, it will prompt the user for new grid size.",
+    "image": "etchasketch.png"
+  },
+  {
+    "name": "Calculator",
+    "techStack": ["JavaScript"],
+    "links": {
+      "code": "https://github.com/jesse-moore/odinProject/tree/master/calculator",
+      "live": "https://jesse-moore.github.io/odinProject/calculator"
+    },
+    "description": "A calculator app with add, subtract, multiply and divide functions. The app only evaluates a single pair of numbers at a given time. For example 12 + 7 - 5 * 3 = yields 42.",
+    "image": "calculator.png"
+  }
+]
