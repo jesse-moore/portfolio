@@ -1,0 +1,168 @@
+header {
+    margin: 200px auto;
+    padding: 0 60px;
+    max-width: 940px;
+    font-size: 1.25em;
+}
+
+header h2 {
+    font-weight: 200;
+    font-size: 3em;
+    margin: 10px 0 40px 0;
+}
+
+header a {
+    color: rgb(20, 200, 255);
+    text-decoration: none;
+}
+
+footer {
+    margin: 50px auto;
+    max-width: 940px;
+}
+
+footer .icon {
+    fill: rgb(184, 184, 184);
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: rgb(209, 209, 209);
+    background-color: rgb(29, 31, 36);
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-links div {
+    margin-right: 40px;
+}
+
+.footer-links div a {
+    position: relative;
+    color: unset;
+}
+
+#github:hover div {
+    display: block;
+}
+
+#linkedin:hover div {
+    display: block;
+}
+
+#contact:hover div {
+    display: block;
+}
+
+.footer-link-text {
+    display: none;
+    left: -50%;
+    margin-top: 10px;
+    position: absolute;
+}
+
+.main-container {
+    background-color: rgb(184, 184, 184);
+    color: rgb(27, 27, 27);
+}
+
+.sections-container {
+    margin: 50px auto;
+    max-width: 1000px;
+}
+
+.section-header h3 {
+	font-size: 2em;
+	font-weight: 400;
+    margin: 0;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.section-header hr {
+    width: 470px;
+}
+
+.projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 -15px;
+}
+
+.project-container {
+    background-color: rgb(197, 197, 197);
+    box-shadow: 1px 1px 2px rgb(122, 122, 122);
+    border-radius: 5px;
+    margin: 0px 15px 30px;
+    padding: 10px;
+    width: 450px;
+}
+
+.project-container article {
+	height: 160px;
+}
+
+.project-container img {
+    border-radius: 5px;
+    width: 450px;
+}
+
+.projects-container::after {
+    content: '';
+    margin: 0px 15px 30px;
+    padding: 10px;
+    width: 450px;
+}
+
+.project-container h4 {
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+.project-container article span {
+	font-weight: 700;
+	color: rgb(78, 92, 105);
+}
+
+.project-links {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-items: center;
+}
+
+.project-link {
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.9);
+    margin-right: 20px;
+    padding: 5px;
+    height: 24px;
+    width: 115px;
+    position: relative;
+    text-align: center;
+}
+
+.project-links a:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.project-links a {
+    text-decoration: none;
+    color: unset;
+}
+
+.project-link span {
+    line-height: 10px;
+    vertical-align: text-top;
+    margin-left: 5px;
+}
+
+.icon {
+    width: 24px;
+}

@@ -1,129 +1,203 @@
-<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Jesse Moore</title>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="normalize.css" />
+        <link rel="stylesheet" href="style.css" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap"
+            rel="stylesheet"
+        />
+        <title>Jesse Moore</title>
+    </head>
+    <body>
+        <div>
+            <header>
+                <span>Hello, I'm</span>
+                <h2>Jesse Moore</h2>
+                <p>
+                    I currently reside in Northwest Arkansas and I'm currently
+                    learning Web Development through
+                    <a href="https://www.launchcode.org/lc101"
+                        >LaunchCode 101 Bootcamp</a
+                    >. Check out some of my finished projects below.
+                </p>
+            </header>
 
-    <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/genericons.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
+            <main class="main-container">
+                <div class="sections-container">
+                    <div class="section-header">
+                        <h3>Projects</h3>
+                        <!-- <hr /> -->
+                    </div>
+                    <section class="projects-container">
+                        <div class="project-container">
+                            <img src="./images/rps.png" />
+                            <article>
+                                <h4>Rock, Paper, Scissors</h4>
+                                <span>Javascript</span>
+                                <p>
+                                    A rock, paper, scissors game written in
+                                    Javascript. The game is played against the
+                                    computer and the winner is determined by the
+                                    highest score out of 5 rounds.
+                                </p>
+                            </article>
+                            <div class="project-links">
+                                <a
+                                    class="project-link"
+                                    href="https://github.com/jesse-moore/odinProject/tree/master/rps"
+                                    target="_blank"
+                                >
+                                    <svg class="icon" viewBox="0 0 32 32">
+                                        <path
+                                            d="M16 0.395c-8.836 0-16 7.163-16 16 0 7.069 4.585 13.067 10.942 15.182 0.8 0.148 1.094-0.347 1.094-0.77 0-0.381-0.015-1.642-0.022-2.979-4.452 0.968-5.391-1.888-5.391-1.888-0.728-1.849-1.776-2.341-1.776-2.341-1.452-0.993 0.11-0.973 0.11-0.973 1.606 0.113 2.452 1.649 2.452 1.649 1.427 2.446 3.743 1.739 4.656 1.33 0.143-1.034 0.558-1.74 1.016-2.14-3.554-0.404-7.29-1.777-7.29-7.907 0-1.747 0.625-3.174 1.649-4.295-0.166-0.403-0.714-2.030 0.155-4.234 0 0 1.344-0.43 4.401 1.64 1.276-0.355 2.645-0.532 4.005-0.539 1.359 0.006 2.729 0.184 4.008 0.539 3.054-2.070 4.395-1.64 4.395-1.64 0.871 2.204 0.323 3.831 0.157 4.234 1.026 1.12 1.647 2.548 1.647 4.295 0 6.145-3.743 7.498-7.306 7.895 0.574 0.497 1.085 1.47 1.085 2.963 0 2.141-0.019 3.864-0.019 4.391 0 0.426 0.288 0.925 1.099 0.768 6.354-2.118 10.933-8.113 10.933-15.18 0-8.837-7.164-16-16-16z"
+                                        ></path>
+                                    </svg>
+                                    <span>&lt;Code/&gt;</span>
+                                </a>
 
+                                <a
+                                    class="project-link"
+                                    href="https://jesse-moore.github.io/odinProject/rps"
+                                    target="_blank"
+                                >
+                                    <svg class="icon" viewBox="0 0 32 32">
+                                        <path
+                                            d="M18.688 4h9.313v9.313h-2.688v-4.75l-13.063 13.063-1.875-1.875 13.063-13.063h-4.75v-2.688zM25.313 25.313v-9.313h2.688v9.313q0 1.063-0.813 1.875t-1.875 0.813h-18.625q-1.125 0-1.906-0.781t-0.781-1.906v-18.625q0-1.125 0.781-1.906t1.906-0.781h9.313v2.688h-9.313v18.625h18.625z"
+                                        ></path>
+                                    </svg>
+                                    <span>Live</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-container">
+                            <img src="./images/etchasketch.png" />
+                            <article>
+                                <h4>Etch-A-Sketch</h4>
+                                <span>Javascript</span>
+                                <p>
+                                    A drawing game written in Javascript and
+                                    modeled after the etch-a-sketch game.
+                                    Mousing over the playing area, the pixels
+                                    will progressively increase in darkness.
+                                    Upon clearing the playing area, it will
+                                    prompt the user for new grid size.
+                                </p>
+                            </article>
+                            <div class="project-links">
+                                <a
+                                    class="project-link"
+                                    href="https://github.com/jesse-moore/odinProject/tree/master/etchASketch"
+                                    target="_blank"
+                                >
+                                    <svg class="icon" viewBox="0 0 32 32">
+                                        <path
+                                            d="M16 0.395c-8.836 0-16 7.163-16 16 0 7.069 4.585 13.067 10.942 15.182 0.8 0.148 1.094-0.347 1.094-0.77 0-0.381-0.015-1.642-0.022-2.979-4.452 0.968-5.391-1.888-5.391-1.888-0.728-1.849-1.776-2.341-1.776-2.341-1.452-0.993 0.11-0.973 0.11-0.973 1.606 0.113 2.452 1.649 2.452 1.649 1.427 2.446 3.743 1.739 4.656 1.33 0.143-1.034 0.558-1.74 1.016-2.14-3.554-0.404-7.29-1.777-7.29-7.907 0-1.747 0.625-3.174 1.649-4.295-0.166-0.403-0.714-2.030 0.155-4.234 0 0 1.344-0.43 4.401 1.64 1.276-0.355 2.645-0.532 4.005-0.539 1.359 0.006 2.729 0.184 4.008 0.539 3.054-2.070 4.395-1.64 4.395-1.64 0.871 2.204 0.323 3.831 0.157 4.234 1.026 1.12 1.647 2.548 1.647 4.295 0 6.145-3.743 7.498-7.306 7.895 0.574 0.497 1.085 1.47 1.085 2.963 0 2.141-0.019 3.864-0.019 4.391 0 0.426 0.288 0.925 1.099 0.768 6.354-2.118 10.933-8.113 10.933-15.18 0-8.837-7.164-16-16-16z"
+                                        ></path>
+                                    </svg>
+                                    <span>&lt;Code/&gt;</span>
+                                </a>
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-  </head>
-  <body>
-<div class="container">
-      <!-- Static navbar -->
-      <div class="navbar navbar-default" role="navigation">
-        <div class="container-fluid">
-          <div class="navbar-header">
-            <a class="navbar-brand" href="#">Jesse Moore</a>
-          </div>
-        </div><!--/.container-fluid -->
-      </div>
-</div>
-<div class="container">
-    <div class="col-md-6">  
-      <div class="content-list">
-        <div class="content-header row" id="social-title" onmouseup="list_collapse(this)">
-          <div class="content-header-icon col-md-2">
-            <span class="genericon genericon-user"></span>
-          </div>
-          <div class="content-header-title col-md-9">
-            Social
-          </div>
-          <div class="content-header-drop col-md-1">
-            <span class="genericon genericon-collapse drop"></span>
-          </div>  
-        </div>
-        <div class="row title-row">
-          <div class="content-item-title col-md-6 content-item"><a href="https://www.facebook.com/jesse.moore.12">
-            <span class="genericon genericon-facebook"></span>Facebook</a></div>
-          <div class="content-item-title col-md-6 content-item"><a href="https://github.com/jesse-moore">
-            <span class="genericon genericon-github"></span>Github</a></div>
-        </div>
-        <div class="row title-row">
-          <div class="content-item-title col-md-6 content-item"><a href="mailto:moore.jesse@gmail.com">
-            <span class="genericon genericon-mail"></span>E-Mail</a></div>
-          <div class="content-item-title col-md-6 content-item"></div>
-        </div>
-      </div>
-      <div class="content-list">
-        <div class="content-header row" id="snippets-title" onmouseup="list_collapse(this)">
-          <div class="content-header-icon col-md-2">
-            <span class="genericon genericon-cog"></span>
-          </div>
-          <div class="content-header-title col-md-9">
-            Snippets
-          </div>
-          <div class="content-header-drop col-md-1">
-            <span class="genericon genericon-collapse drop"></span>
-          </div>  
-        </div>
-<!--         <div class="col-md-12 content-item">
-          <div class="content-item-title ">
-            Content Title</div>
-          <div class="content-item-des">
-            Content Description</div>
-        </div> -->
-      </div>
-    </div>
-    <div class="col-md-6">  
-      <div class="content-list">
-        <div class="content-header row" id="projects-title" onmouseup="list_collapse(this)">
-          <div class="content-header-icon col-md-2">
-            <span class="genericon genericon-category"></span>
-          </div>
-          <div class="content-header-title col-md-9">
-            Projects
-          </div>
-          <div class="content-header-drop col-md-1">
-            <span class="genericon genericon-collapse drop"></span>
-          </div>  
-        </div>
-        <a href="http://www.jesse-moore.com/weatherapp/weather.php">
-          <div class="col-md-12 content-item">
-          <div class="content-item-title ">
-            Visual Weather App</div>
-          <div class="content-item-des">
-            Initial Version</div>
-        </div></a>
-      </div>
-      <div class="content-list">
-        <div class="content-header row" id="photo-title" onmouseup="list_collapse(this)">
-          <div class="content-header-icon col-md-2">
-            <span class="genericon genericon-image"></span>
-          </div>
-          <div class="content-header-title col-md-9">
-            Photography
-          </div>
-          <div class="content-header-drop col-md-1">
-            <span class="genericon genericon-collapse drop"></span>
-          </div>  
-        </div>
-<!--         <div class="col-md-12 content-item">
-          <div class="content-item-title ">
-            Content Title</div>
-          <div class="content-item-des">
-            Content Description</div>
-        </div> -->
-      </div>
-    </div>
-</div>
+                                <a
+                                    class="project-link"
+                                    href="https://jesse-moore.github.io/odinProject/etchASketch"
+                                    target="_blank"
+                                >
+                                    <svg class="icon" viewBox="0 0 32 32">
+                                        <path
+                                            d="M18.688 4h9.313v9.313h-2.688v-4.75l-13.063 13.063-1.875-1.875 13.063-13.063h-4.75v-2.688zM25.313 25.313v-9.313h2.688v9.313q0 1.063-0.813 1.875t-1.875 0.813h-18.625q-1.125 0-1.906-0.781t-0.781-1.906v-18.625q0-1.125 0.781-1.906t1.906-0.781h9.313v2.688h-9.313v18.625h18.625z"
+                                        ></path>
+                                    </svg>
+                                    <span>Live</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-container">
+                            <img src="./images/calculator.png" />
+                            <article>
+                                <h4>Calculator</h4>
+                                <span>Javascript</span>
+                                <p>
+                                    A calculator app with add, subtract,
+                                    multiply and divide functions. The app only
+                                    evaluates a single pair of numbers at a
+                                    given time. For example 12 + 7 - 5 * 3 =
+                                    yields 42.
+                                </p>
+                            </article>
+                            <div class="project-links">
+                                <a
+                                    class="project-link"
+                                    href="https://github.com/jesse-moore/odinProject/tree/master/calculator"
+                                    target="_blank"
+                                >
+                                    <svg class="icon" viewBox="0 0 32 32">
+                                        <path
+                                            d="M16 0.395c-8.836 0-16 7.163-16 16 0 7.069 4.585 13.067 10.942 15.182 0.8 0.148 1.094-0.347 1.094-0.77 0-0.381-0.015-1.642-0.022-2.979-4.452 0.968-5.391-1.888-5.391-1.888-0.728-1.849-1.776-2.341-1.776-2.341-1.452-0.993 0.11-0.973 0.11-0.973 1.606 0.113 2.452 1.649 2.452 1.649 1.427 2.446 3.743 1.739 4.656 1.33 0.143-1.034 0.558-1.74 1.016-2.14-3.554-0.404-7.29-1.777-7.29-7.907 0-1.747 0.625-3.174 1.649-4.295-0.166-0.403-0.714-2.030 0.155-4.234 0 0 1.344-0.43 4.401 1.64 1.276-0.355 2.645-0.532 4.005-0.539 1.359 0.006 2.729 0.184 4.008 0.539 3.054-2.070 4.395-1.64 4.395-1.64 0.871 2.204 0.323 3.831 0.157 4.234 1.026 1.12 1.647 2.548 1.647 4.295 0 6.145-3.743 7.498-7.306 7.895 0.574 0.497 1.085 1.47 1.085 2.963 0 2.141-0.019 3.864-0.019 4.391 0 0.426 0.288 0.925 1.099 0.768 6.354-2.118 10.933-8.113 10.933-15.18 0-8.837-7.164-16-16-16z"
+                                        ></path>
+                                    </svg>
+                                    <span>&lt;Code/&gt;</span>
+                                </a>
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <script src="//code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/script.js"></script>
-  </body>
+                                <a
+                                    class="project-link"
+                                    href="https://jesse-moore.github.io/odinProject/calculator"
+                                    target="_blank"
+                                >
+                                    <svg class="icon" viewBox="0 0 32 32">
+                                        <path
+                                            d="M18.688 4h9.313v9.313h-2.688v-4.75l-13.063 13.063-1.875-1.875 13.063-13.063h-4.75v-2.688zM25.313 25.313v-9.313h2.688v9.313q0 1.063-0.813 1.875t-1.875 0.813h-18.625q-1.125 0-1.906-0.781t-0.781-1.906v-18.625q0-1.125 0.781-1.906t1.906-0.781h9.313v2.688h-9.313v18.625h18.625z"
+                                        ></path>
+                                    </svg>
+                                    <span>Live</span>
+                                </a>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </main>
+            <footer>
+                <div class="footer-links">
+                    <div id="github">
+                        <a
+                            href="https://github.com/jesse-moore"
+                            target="_blank"
+                        >
+                            <svg class="icon" viewBox="0 0 32 32">
+                                <path
+                                    d="M16 0.395c-8.836 0-16 7.163-16 16 0 7.069 4.585 13.067 10.942 15.182 0.8 0.148 1.094-0.347 1.094-0.77 0-0.381-0.015-1.642-0.022-2.979-4.452 0.968-5.391-1.888-5.391-1.888-0.728-1.849-1.776-2.341-1.776-2.341-1.452-0.993 0.11-0.973 0.11-0.973 1.606 0.113 2.452 1.649 2.452 1.649 1.427 2.446 3.743 1.739 4.656 1.33 0.143-1.034 0.558-1.74 1.016-2.14-3.554-0.404-7.29-1.777-7.29-7.907 0-1.747 0.625-3.174 1.649-4.295-0.166-0.403-0.714-2.030 0.155-4.234 0 0 1.344-0.43 4.401 1.64 1.276-0.355 2.645-0.532 4.005-0.539 1.359 0.006 2.729 0.184 4.008 0.539 3.054-2.070 4.395-1.64 4.395-1.64 0.871 2.204 0.323 3.831 0.157 4.234 1.026 1.12 1.647 2.548 1.647 4.295 0 6.145-3.743 7.498-7.306 7.895 0.574 0.497 1.085 1.47 1.085 2.963 0 2.141-0.019 3.864-0.019 4.391 0 0.426 0.288 0.925 1.099 0.768 6.354-2.118 10.933-8.113 10.933-15.18 0-8.837-7.164-16-16-16z"
+                                ></path>
+                            </svg>
+                            <div class="footer-link-text">Github</div>
+                        </a>
+                    </div>
+                    <div id="linkedin">
+                        <a
+                            href="https://www.linkedin.com/in/jesse-moore-00804030/"
+                            target="_blank"
+                        >
+                            <svg class="icon" viewBox="0 0 32 32">
+                                <path
+                                    d="M29 0h-26c-1.65 0-3 1.35-3 3v26c0 1.65 1.35 3 3 3h26c1.65 0 3-1.35 3-3v-26c0-1.65-1.35-3-3-3zM12 26h-4v-14h4v14zM10 10c-1.106 0-2-0.894-2-2s0.894-2 2-2c1.106 0 2 0.894 2 2s-0.894 2-2 2zM26 26h-4v-8c0-1.106-0.894-2-2-2s-2 0.894-2 2v8h-4v-14h4v2.481c0.825-1.131 2.087-2.481 3.5-2.481 2.488 0 4.5 2.238 4.5 5v9z"
+                                ></path>
+                            </svg>
+                            <div class="footer-link-text">LinkedIn</div>
+                        </a>
+                    </div>
+                    <div id="contact">
+                        <a href="mailto:moore.jesse@gmail.com" target="_blank">
+                            <svg class="icon" viewBox="0 0 32 32">
+                                <path
+                                    d="M15.996 15.457l16.004-7.539v-3.918h-32v3.906zM16.004 19.879l-16.004-7.559v15.68h32v-15.656z"
+                                ></path>
+                            </svg>
+                            <div class="footer-link-text">Contact</div>
+                        </a>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </body>
 </html>
