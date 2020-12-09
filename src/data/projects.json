@@ -7,7 +7,8 @@
       "live": "https://jesse-moore.github.io/odinProject/rps"
     },
     "description": "A rock, paper, scissors game written in Javascript. The game is played against the computer and the winner is determined by the highest score out of 5 rounds.",
-    "image": "rps.png"
+    "image": "rps.png",
+    "current": false
   },
   {
     "name": "Etch-A-Sketch",
@@ -17,7 +18,8 @@
       "live": "https://jesse-moore.github.io/odinProject/etchASketch"
     },
     "description": "A drawing game written in Javascript and modeled after the etch-a-sketch game. Mousing over the playing area, the pixels will progressively increase in darkness. Upon clearing the playing area, it will prompt the user for new grid size.",
-    "image": "etchasketch.png"
+    "image": "etchasketch.png",
+    "current": false
   },
   {
     "name": "Calculator",
@@ -27,6 +29,18 @@
       "live": "https://jesse-moore.github.io/odinProject/calculator"
     },
     "description": "A calculator app with add, subtract, multiply and divide functions. The app only evaluates a single pair of numbers at a given time. For example 12 + 7 - 5 * 3 = yields 42.",
-    "image": "calculator.png"
+    "image": "calculator.png",
+    "current": false
+  },
+  {
+    "name": "Serverless GraphQL",
+    "techStack": ["Typescript, GraphQL, Google Cloud Functions"],
+    "links": {
+      "code": "https://github.com/jesse-moore/strava-stats/tree/main/server-cloud-function",
+      "live": "https://us-central1-strava-stats-aac46.cloudfunctions.net/strava/api"
+    },
+    "description": "An api for a website showing the stats of all my runs.",
+    "image": "serverless-graphql.png",
+    "current": true
   }
 ]
