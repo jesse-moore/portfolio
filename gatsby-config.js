@@ -4,7 +4,6 @@ module.exports = {
     description: `Portfolio Site`,
     author: `Jesse Moore`,
   },
-  pathPrefix: "/portfolio",
   plugins: [
     `gatsby-transformer-json`,
     {
