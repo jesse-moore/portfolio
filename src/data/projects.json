@@ -36,11 +36,21 @@
     "name": "Serverless GraphQL",
     "techStack": ["Typescript, GraphQL, Google Cloud Functions"],
     "links": {
-      "code": "https://github.com/jesse-moore/strava-stats/tree/main/server-cloud-function",
-      "live": "https://us-central1-strava-stats-aac46.cloudfunctions.net/strava/api"
+      "code": "https://github.com/jesse-moore/strava-stats/tree/main/server-cloud-function"
     },
     "description": "An api for a website showing the stats of all my runs.",
     "image": "serverless-graphql.png",
+    "current": true
+  },
+  {
+    "name": "Activity Stats Client",
+    "techStack": ["Javascript, React, GraphQL, D3"],
+    "links": {
+      "code": "https://github.com/jesse-moore/strava-stats-client",
+      "live": "https://strava-stats-aac46.web.app/"
+    },
+    "description": "A website showing the stats of all my runs.",
+    "image": "strava-stats-client.png",
     "current": true
   }
 ]
