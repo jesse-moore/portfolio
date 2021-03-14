@@ -36,9 +36,9 @@
     "name": "Running Stats Server",
     "techStack": ["Typescript, GraphQL, Google Cloud Functions"],
     "links": {
-      "code": "https://github.com/jesse-moore/running-stats-server/tree/main/server-cloud-function"
+      "code": "https://github.com/jesse-moore/running-stats-server"
     },
-    "description": "An api for personal run stats.",
+    "description": "A GraphQL api that serves personal running data and a webhook that updates running data when a new run gets created.",
     "image": "serverless-graphql.png",
     "current": true
   },
@@ -49,7 +49,7 @@
       "code": "https://github.com/jesse-moore/running-stats-client",
       "live": "https://running-stats.web.app/"
     },
-    "description": "A website showing the stats of all my runs.",
+    "description": "A single page application that displays statistics of personal running activities.",
     "image": "running-stats-client.png",
     "current": true
   }
