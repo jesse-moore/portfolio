@@ -47,7 +47,7 @@
     "techStack": ["Javascript, React, GraphQL, D3"],
     "links": {
       "code": "https://github.com/jesse-moore/running-stats-client",
-      "live": "https://strava-stats-aac46.web.app/"
+      "live": "https://running-stats.web.app/"
     },
     "description": "A website showing the stats of all my runs.",
     "image": "running-stats-client.png",
